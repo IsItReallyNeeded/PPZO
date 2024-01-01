@@ -4,17 +4,10 @@ Description of the program
 The program " Rock, Paper, Scissors" is a simple simulation of a game in which the user competes against the computer. The program uses strategies and a transition matrix to learn the best choice based on the history of the game. After the simulation, the user has the opportunity to face the learned computer. After the simulation and gameplay against the computer are completed, graphs are displayed with the results of the game. 
 
 Code description
-1. Import the necessary libraries:
-import random
-import matplotlib.pyplot as plt
-import numpy as np
 
+1. Import the necessary libraries
 
-2. Initalization of game states and transition matrix:
-
-states = ["rock", "paper", "scissors"]
-transition_matrix = np.full((3, 3), 1.0 / 3)
-
+2. Initalization of game states and transition matrix
 
 3. Function `prepare_data`
 Performs a simulation of game where ai learns with random choice.
