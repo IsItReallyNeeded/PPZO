@@ -25,4 +25,4 @@ USAGE:
 1. Run the program.
 2. Choose `y` if you want to learn AI with random or `n` if you want to start playing.
 3. Choose 1 out of 3 (`rock`,`paper`,`scissors`) and watch results.
-4. Decide if you want to end the game and display chart or continue playing.
+4. Choose `y` if you want to continue playing or `n` if you want to end the game and display chart.
